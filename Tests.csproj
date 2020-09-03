@@ -55,6 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Quetion.cs" />
+    <Compile Include="Test1.cs" />
+    <Compile Include="Test1Datas.cs" />
+    <Compile Include="Test2.cs" />
+    <Compile Include="Test2Datas.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
