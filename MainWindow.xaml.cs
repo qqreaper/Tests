@@ -24,5 +24,21 @@ namespace Tests
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            Test1 test1 = new Test1();
+            test1.Show();
+        }
+
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            Test2 test2 = new Test2();
+            test2.Show();
+        }
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }

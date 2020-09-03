@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tests"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Width="500" Height="275">
     <Grid>
-        
+        <Button Content="Тест №1" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button1_Click"/>
+        <Button Content="Тест №2" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button2_Click"/>
+        <Button Content="Тест №3" HorizontalAlignment="Left" Margin="350,100,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button3_Click"/>
+
     </Grid>
 </Window>
